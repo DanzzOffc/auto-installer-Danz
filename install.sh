@@ -92,7 +92,7 @@ install_theme() {
     THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/stellaredit.zip
     ;;
   2)
-    THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/C1 (1).zip
+    THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/C1.zip
     ;;
   3)
     THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/enigma.zip
@@ -156,7 +156,7 @@ elif [ "$SELECT_THEME" -eq 2 ]; then
   php artisan migrate
   yarn build:production
   php artisan view:clear
-  sudo rm /root/C1 (1).zip
+  sudo rm /root/C1.zip
   sudo rm -rf /root/pterodactyl
 
   echo -e "                                                       "
