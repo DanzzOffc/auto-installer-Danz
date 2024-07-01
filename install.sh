@@ -89,25 +89,23 @@ install_theme() {
     echo -e "masukan pilihan (1/2/3/x) :"
     read -r SELECT_THEME
     case "$SELECT_THEME" in
-      1)
-        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/stellaredit.zip
-        break
-        ;;
-      2)
-        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/C1 (1).zip
-        break
-        ;;
-      3)
-        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/enigma.zip
-        break
-        ;; 
-      x)
-        return
-        ;;
-      *)
-        echo -e "${RED}Pilihan tidak valid, silahkan coba lagi.${NC}"
-        ;;
-    esac
+  1)
+    THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/stellaredit.zip
+    ;;
+  2)
+    THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/C1 (1).zip
+    ;;
+  3)
+    THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/enigma.zip
+    ;; 
+  x)
+    return
+    ;;
+  *)
+    echo -e "${RED}Pilihan tidak valid, silahkan coba lagi.${NC}"
+    ;;
+esac
+
   done
   
 if [ -e /root/pterodactyl ]; then
