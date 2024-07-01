@@ -95,7 +95,7 @@ install_theme() {
         break
         ;;
       2)
-        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/C1.zip
+        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/C1 (1).zip
         break
         ;;
       3)
