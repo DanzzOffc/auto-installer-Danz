@@ -132,7 +132,7 @@ if [ "$SELECT_THEME" -eq 1 ]; then
   php artisan migrate
   yarn build:production
   php artisan view:clear
-  sudo rm /root/C2.zip
+  sudo rm /root/stellaredited.zip
   sudo rm -rf /root/pterodactyl
 
   echo -e "                                                       "
@@ -160,7 +160,7 @@ elif [ "$SELECT_THEME" -eq 2 ]; then
   php artisan migrate
   yarn build:production
   php artisan view:clear
-  sudo rm /root/C1.zip
+  sudo rm /root/C3.zip
   sudo rm -rf /root/pterodactyl
 
   echo -e "                                                       "
@@ -188,7 +188,7 @@ elif [ "$SELECT_THEME" -eq 3 ]; then
   php artisan migrate
   yarn build:production
   php artisan view:clear
-  sudo rm /root/C3.zip
+  sudo rm /root/enigma.zip
   sudo rm -rf /root/pterodactyl
 
   echo -e "                                                       "
