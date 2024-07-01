@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 # Color
 BLUE='\033[0;34m'       
 RED='\033[0;31m'
