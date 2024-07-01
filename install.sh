@@ -91,15 +91,15 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/blob/main/stellaredited.zip
+        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/stellaredit.zip
         break
         ;;
       2)
-        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/blob/main/C3.zip
+        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/C1.zip
         break
         ;;
       3)
-        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/blob/main/enigma.zip
+        THEME_URL=https://github.com/DanzzOffc/auto-installer-Danz/raw/main/enigma.zip
         break
         ;; 
       x)
